@@ -7,6 +7,9 @@ function App() {
       <header>
         <p className='text-xl text-green-500'>Kui Tailwind töötab, on see tekst roheline</p>
       </header>
+      <div>
+        <img src="https://www.anettkontaveit.ee/images/main-bg.png" alt=""></img>
+      </div>
     </div>
   );
 }
