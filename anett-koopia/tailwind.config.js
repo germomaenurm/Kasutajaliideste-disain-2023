@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         zonaBold: ['Zona Bold', 'sans-serif'],
         zonaLight: ['Zona Light', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
       },
     },
   },
