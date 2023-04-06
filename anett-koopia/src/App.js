@@ -187,6 +187,12 @@ function App() {
                 </div>
               
             </div>
+            <div id="frontpage-content-blog">
+              <h2>Anetti lood</h2>
+              <div class="blog-list">
+              <a class="item-image" href="/anetti-lood/aneti-uus-treener-on-kogenud-sakslane" style="background-image: url('//www.anettkontaveit.ee/photos/60236FAF-461A-49DB-8AA7-D08C9881005A_1_201_a_block.jpeg');"></a>
+              </div>
+            </div>
               </div>
             </div>
           </div>
