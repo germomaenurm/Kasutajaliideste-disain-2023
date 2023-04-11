@@ -192,7 +192,7 @@ function App() {
               
             </div>
             <div id="frontpage-content-blog">
-              <h2 className='text-5xl text-blue-700 mb-9 font-zonaBold text-center mt-8'>Anetti lood</h2>
+              <h2 className='text-5xl text-blue-700 font-zonaBold text-center mt-8'>Anetti lood</h2>
               {/* <div class="blog-list" className='flex flex-wrap justify-between items-center text-center box-border'>
                 <div className='w-1/3 max-w-xs '>
                   <div class="item-image"><a href="/"><img src="//www.anettkontaveit.ee/photos/60236FAF-461A-49DB-8AA7-D08C9881005A_1_201_a_block.jpeg" alt="Lacoste"></img></a></div>
@@ -207,7 +207,7 @@ function App() {
               </div> */}
               
             </div>
-            <section className="bg-white py-8 px-4 sm:px-8">
+            <section className="flex justify-center bg-white py-8 px-4 sm:px-8">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 max-w-screen-lg">
                 <div className=" p-4">
                   <img
@@ -215,8 +215,8 @@ function App() {
                     alt="Anetti lugu 1"
                     className="w-full h-48 object-cover mb-4"
                   />
-                  <a className="text-2xl text-bold font-zonaBold text-black font-normal hover:text-blue-700" href='/'>Aneti uus treener on kogenenud sakslane</a>
-                  <p>
+                  <a className="flex mb-3 pl-3 text-2xl text-bold font-zonaBold text-black font-normal hover:text-blue-700" href='/'>Aneti uus treener on kogenenud sakslane</a>
+                  <p className='pl-3'>
                     Eesti esireket, WTA maailma edetabelis kõrgele teisele kohale tõusnud Anett Kontaveit alustab koostööd kogenud Saksa treeneri Torben Beltziga.
                   </p>
                 </div>
@@ -226,8 +226,8 @@ function App() {
                     alt="Anetti lugu 2"
                     className="w-full h-48 object-cover mb-4"
                   />
-                  <a className="text-2xl text-bold font-zonaBold text-black font-normal hover:text-blue-700" href='/'>Karjääri parima hooaja teinud Anett sihib slämmivõitu</a>
-                  <p>
+                  <a className="flex mb-3 pl-3 text-2xl text-bold font-zonaBold text-black font-normal hover:text-blue-700" href='/'>Karjääri parima hooaja teinud Anett sihib slämmivõitu</a>
+                  <p className='pl-3'>
                     Eesti esireketil Anett Kontaveidil on selja taga karjääri edukaim hooaeg, mille käigus kirjutas ta mitmel korral ümber Eesti tenniseajalugu. Uuele aastale läheb ta vastu uute sihtidega.
                   </p>
                 </div>
@@ -237,8 +237,8 @@ function App() {
                     alt="Anetti lugu 3"
                     className="w-full h-48 object-cover mb-4"
                   />
-                  <a className="text-2xl text-bold font-zonaBold text-black font-normal hover:text-blue-700" href='/'>Anett Kontaveit ja Nigel Sears otsustasid koostöö lõpetada</a>
-                  <p>
+                  <a className="flex mb-3 pl-3 text-2xl text-bold font-zonaBold text-black font-normal hover:text-blue-700" href='/'>Anett Kontaveit ja Nigel Sears otsustasid koostöö lõpetada</a>
+                  <p className='pl-3'>
                     Eesti esinumber Anett Kontaveit ja tema senine treener Nigel Sears otsustasid ligi kolm aastat kestnud koostööle joone alla tõmmata.
                   </p>
                 </div>
